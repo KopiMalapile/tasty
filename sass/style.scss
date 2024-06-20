@@ -8,7 +8,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #ea272d !default;
+$brand-primary: #f5bd06 !default;
 $brand-secondary: #fee856 !default;
 $brand-tertiary: #2A528A !default;
 
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		top: 0;
 		left: 0;
 		right: 0;
-		background: rgba($brand-black,.5);
+		
 	}
 }
 #fh5co-header,
@@ -806,7 +806,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		top: 0;
 		left: 0;
 		right: 0;
-		background: rgba(0, 0, 0, .7);
+		
 	}
 	
 	.fh5co-heading {
@@ -844,7 +844,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			display: block;
 			margin-bottom: 20px;
 			font-size: 14px;
-			color: rgba($brand-black,.3);
+			//removed background color
 		}
 	}
 }
